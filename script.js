@@ -89,6 +89,7 @@ function updateTimer() {
     document.getElementById("myTimer").innerHTML = elapsedSeconds.toFixed(3);
 }
 
+document.getElementById("myTimer").innerHTML = "0.000";
 timerId = setInterval(updateTimer, 10);
 
 
