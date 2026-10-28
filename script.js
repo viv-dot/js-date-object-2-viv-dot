@@ -107,6 +107,8 @@ timerId = setInterval(updateTimer, 10);
 //          currently running (let running = true;)
 let running = true;
 
+document.getElementById("myBtn").innerHTML = "Stop";
+
 // STEP 14: Add a click event listener to the button (ID "myBtn").
 //          Inside the listener:
 //          a) If running is true:
